@@ -11,6 +11,9 @@ actions:
   - text: 读过的书
     link: /books/
     type: secondary
+  - text: 高频面试题
+    link: /interview/
+    type: secondary
 features:
 - title: 数据结构
   details: 集合, 链表, 队列, 栈, 堆, 树, 图

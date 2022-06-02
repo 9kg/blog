@@ -5,10 +5,11 @@ module.exports = {
   title: '你好， 大兄弟 ！',
   description: '这是我的前端学习记录!',
   base: '/blog/',
+  open: true,
   head: [
       ['link', {
           rel: 'icon',
-          href: `/logo.webp`
+          href: `/logo.png`
       }]
   ],
   // 如果你的对象只有那些 “常青树” 浏览器，你可以将其设置成 true 。这将会禁用一些转译过程和 Polyfills ，带来更快的构建速度和更小的文件体积。
@@ -30,8 +31,93 @@ module.exports = {
     docsBranch: 'master',
     docsDir: 'docs',
     notFound: ['当前路径不存在~'],
+    lastUpdatedText: "最近更新",
+    contributors: false,
     backToHome: '返回首页',
     openInNewWindow: '新窗口打开',
-    toggleDarkMode: '昼夜交替'
+    toggleDarkMode: '昼夜交替',
+    sidebar: {
+      '/interview/': [
+        // {
+        //   text: 'CSS',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/css/index.md',
+        //     '/interview/css/bfc.md',
+        //   ],
+        // },
+        // {
+        //   text: 'JS',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/js/curry.md',
+        //   ],
+        // },
+        // {
+        //   text: 'VUE',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        // {
+        //   text: '浏览器',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        // {
+        //   text: '网络',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        // {
+        //   text: '数据结构',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        // {
+        //   text: '算法',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        {
+          text: '安全',
+          collapsible: true,
+          children: [
+            '/interview/security/xss.md',
+            '/interview/security/csrf.md',
+          ],
+        },
+        // {
+        //   text: '设计模式',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        // {
+        //   text: '工程化',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+        // {
+        //   text: '性能优化',
+        //   collapsible: true,
+        //   children: [
+        //     '/interview/vue/diff.md',
+        //   ],
+        // },
+      ]
+    }
   }),
 }
