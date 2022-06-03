@@ -67,13 +67,16 @@ module.exports = {
         //     '/interview/vue/diff.md',
         //   ],
         // },
-        // {
-        //   text: '网络',
-        //   collapsible: true,
-        //   children: [
-        //     '/interview/vue/diff.md',
-        //   ],
-        // },
+        {
+          text: '网络',
+          collapsible: true,
+          children: [
+            '/interview/network/http.md',
+            '/interview/network/https.md',
+            '/interview/network/cdn.md',
+            '/interview/network/dns.md',
+          ],
+        },
         // {
         //   text: '数据结构',
         //   collapsible: true,
