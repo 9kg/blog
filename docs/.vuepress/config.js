@@ -14,12 +14,8 @@ module.exports = {
   ],
   // 如果你的对象只有那些 “常青树” 浏览器，你可以将其设置成 true 。这将会禁用一些转译过程和 Polyfills ，带来更快的构建速度和更小的文件体积。
   evergreen: true,
-  configureWebpack: {
-    resolve: {
-      alias: {
-        '@': path.join(__dirname, 'public','assets')
-      }
-    }
+  alias: {
+    '@assets': path.resolve(__dirname, './assets'),
   },
   theme: defaultTheme({
     logo: "/logo.png",
@@ -36,6 +32,10 @@ module.exports = {
     backToHome: '返回首页',
     openInNewWindow: '新窗口打开',
     toggleDarkMode: '昼夜交替',
+    toggleSidebar: '切换侧边栏',
+    tip: '提示',
+    warning: '注意',
+    danger: '警告',
     sidebar: {
       '/interview/': [
         // {
