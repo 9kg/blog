@@ -24,7 +24,7 @@ res.set('X-XSS-Protection', 1)
 
 ### CSP
 内容安全策略Content Security Policy，是一个附加的安全层
-```yaml
+``` yml
 # 只允许加载本站资源
 ​Content-Security-Policy: default-src 'self'
 # 只允许加载 HTTPS 协议图片
