@@ -1,9 +1,12 @@
 const path = require("path");
-import { defineUserConfig } from 'vuepress'
+import { defineUserConfig } from "vuepress";
 import { searchPlugin } from "@vuepress/plugin-search";
 import { commentPlugin } from "vuepress-plugin-comment2";
-import MyTheme from "./theme"
-import sidebar from "./sidebar"
+import { copyCodePlugin } from "vuepress-plugin-copy-code2";
+import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
+import { readingTimePlugin } from "vuepress-plugin-reading-time2";
+import MyTheme from "./theme";
+import sidebar from "./sidebar";
 
 export default defineUserConfig({
   lang: "zh-CN",
@@ -43,9 +46,13 @@ export default defineUserConfig({
     warning: "注意",
     danger: "警告",
     sidebar,
+    themePlugins: {
+      // 避免和图片预览插件冲突
+      mediumZoom: false,
+    },
   }),
   plugins: [
-    // 搜索你
+    // 搜索
     searchPlugin({
       locales: {
         "/": {
@@ -66,5 +73,21 @@ export default defineUserConfig({
       category: "Announcements",
       categoryId: "DIC_kwDOHheJ084CPvvo",
     }),
+    // 代码复制
+    copyCodePlugin({
+      // 是否展示在移动端
+      showInMobile: true,
+      // 是否生成样式纯净的小而简单的复制按钮
+      pure: true,
+    }),
+    // 图片预览
+    lightgalleryPlugin({
+      plugins: ["pager", "zoom", "fullscreen", "rotate", "thumbnail"],
+    }),
+    // 预计阅读时间与字数统计
+    readingTimePlugin({
+      //默认300
+      wordPerMinute: 200,
+    }),
   ],
-})
+});
