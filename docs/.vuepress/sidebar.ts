@@ -48,13 +48,29 @@ export default {
     //     '/interview/vue/diff.md',
     //   ],
     // },
-    // {
-    //   text: '算法',
-    //   collapsible: true,
-    //   children: [
-    //     '/interview/vue/diff.md',
-    //   ],
-    // },
+    {
+      text: "算法",
+      collapsible: true,
+      children: [
+        {
+          text: "排序",
+          collapsible: true,
+          link: "/interview/algorithm/sort/index.md",
+          children: [
+            "/interview/algorithm/sort/冒泡.md",
+            "/interview/algorithm/sort/简单选择.md",
+            "/interview/algorithm/sort/直接插入.md",
+            "/interview/algorithm/sort/希尔.md",
+            "/interview/algorithm/sort/堆.md",
+            "/interview/algorithm/sort/归并.md",
+            "/interview/algorithm/sort/快排.md",
+            "/interview/algorithm/sort/鸡尾酒.md",
+            "/interview/algorithm/sort/桶.md",
+          ],
+        },
+        "/interview/algorithm/diff.md",
+      ],
+    },
     {
       text: "安全",
       collapsible: true,
@@ -82,4 +98,4 @@ export default {
     //   ],
     // },
   ],
-}
+};
