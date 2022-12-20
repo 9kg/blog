@@ -500,6 +500,11 @@ autosize@^5.0.1:
   resolved "https://registry.yarnpkg.com/autosize/-/autosize-5.0.1.tgz#ed269b0fa9b7eb47627048a1bb3299e99e003a0f"
   integrity sha512-UIWUlE4TOVPNNj2jjrU39wI4hEYbneUypEqcyRmRFIx5CC2gNdg3rQr+Zh7/3h6egbBvm33TDQjNQKtj9Tk1HA==
 
+balloon-css@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/balloon-css/-/balloon-css-1.2.0.tgz#53d3fb4051264a278a58713bed6865845dbcaf4b"
+  integrity sha512-urXwkHgwp6GsXVF+it01485Z2Cj4pnW02ICnM0TemOlkKmCNnDLmyy+ZZiRXBpwldUXO+aRNr7Hdia4CBvXJ5A==
+
 base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
@@ -1045,6 +1050,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+lightgallery@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/lightgallery/-/lightgallery-2.5.0.tgz#9ab94dd3ebbc0a5cf830901aaafeaa75132cf54b"
+  integrity sha512-pzg5gwflLGlKaK1VqDKpb7yqQ/WSV/TxFaHRR7ld7G5iOI9gkJZ2qKKo2lyqvTvu8yAqNYXoU0w9O/Dll6POkw==
+
 linkify-it@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-4.0.1.tgz#01f1d5e508190d06669982ba31a7d9f56a5751ec"
@@ -1500,6 +1510,39 @@ vuepress-plugin-comment2@^2.0.0-beta.83:
     vue "^3.2.37"
     vue-router "^4.0.16"
     vuepress-plugin-sass-palette "2.0.0-beta.83"
+    vuepress-shared "2.0.0-beta.83"
+
+vuepress-plugin-copy-code2@^2.0.0-beta.83:
+  version "2.0.0-beta.83"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-copy-code2/-/vuepress-plugin-copy-code2-2.0.0-beta.83.tgz#f2c3786386b78d76e802d3303f51af6513d7bcc2"
+  integrity sha512-1DU8fKbvOHD4kuNs/jUaIcv7JwwIuvzgwqYx7ekB1cvCbU4ftA7NcJxb5kigVzlniZSJgMZx9WvhlXlkzuulqw==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.48"
+    "@vuepress/utils" "2.0.0-beta.48"
+    balloon-css "^1.2.0"
+    vue "^3.2.37"
+    vue-router "^4.0.16"
+    vuepress-plugin-sass-palette "2.0.0-beta.83"
+    vuepress-shared "2.0.0-beta.83"
+
+vuepress-plugin-lightgallery@^2.0.0-beta.83:
+  version "2.0.0-beta.83"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-lightgallery/-/vuepress-plugin-lightgallery-2.0.0-beta.83.tgz#f7a65935d7f8be742418909f3673206a5e9f5871"
+  integrity sha512-jiNFQvoeh+PH80aJsIP1rhiiMKDXVXa5ff6z+B7DDwardD/O63Aklk9k9ACIyc5KAjtXji6sCLLlQN6H3xggxg==
+  dependencies:
+    "@vuepress/client" "2.0.0-beta.48"
+    "@vuepress/utils" "2.0.0-beta.48"
+    lightgallery "^2.5.0"
+    vue "^3.2.37"
+    vue-router "^4.0.16"
+    vuepress-plugin-sass-palette "2.0.0-beta.83"
+    vuepress-shared "2.0.0-beta.83"
+
+vuepress-plugin-reading-time2@^2.0.0-beta.83:
+  version "2.0.0-beta.83"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-reading-time2/-/vuepress-plugin-reading-time2-2.0.0-beta.83.tgz#3296cde92d22e2958f5030af17441b9ebf990c88"
+  integrity sha512-1QtbDifm8monJf4dBAkiorhkRBP8FcKHbtqJzQiDIfQNa4BImhjbzOdPwkmLWbo3qBuvpsyiGqlqssfxoFRv0g==
+  dependencies:
     vuepress-shared "2.0.0-beta.83"
 
 vuepress-plugin-sass-palette@2.0.0-beta.83:

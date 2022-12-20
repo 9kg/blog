@@ -209,7 +209,7 @@ server.listen(5211, () => {
 })
 ```
 浏览器效果如下：  
-![chunked-demo](@assets/interview/network/chunked-demo.gif)
+![分块传输示例](@assets/interview/network/chunked-demo.gif)
 
 ## HTTP如何处理大文件的传输
 HTTP 针对这一场景，采取了范围请求的解决方案，允许客户端仅仅请求一个资源的一部分，用来告知客户端这边是支持范围请求的。

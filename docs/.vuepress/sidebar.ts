@@ -1,4 +1,18 @@
 export default {
+  "/books/": [{
+    text: "浏览器工作原理与实践",
+    collapsible: true,
+    link: '/books/浏览器工作原理与实践/0.md',
+    children: [
+      "/books/浏览器工作原理与实践/1.md",
+      "/books/浏览器工作原理与实践/2.md",
+      "/books/浏览器工作原理与实践/3.md",
+      "/books/浏览器工作原理与实践/4.md",
+      "/books/浏览器工作原理与实践/5.md",
+      "/books/浏览器工作原理与实践/6.md",
+      "/books/浏览器工作原理与实践/7.md",
+    ],
+  }],
   "/interview/": [
     // {
     //   text: 'CSS',
