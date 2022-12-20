@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.48">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <link rel="icon" href="/logo.png"><title>你好， 大兄弟 ！</title><meta name="description" content="这是我的前端学习记录!">
+    <link rel="modulepreload" href="/blog/assets/app.641cc5f6.js"><link rel="modulepreload" href="/blog/assets/404.html.c3a66f7b.js"><link rel="modulepreload" href="/blog/assets/404.html.4caccefc.js"><link rel="prefetch" href="/blog/assets/index.html.c3659c70.js"><link rel="prefetch" href="/blog/assets/index.html.da919332.js"><link rel="prefetch" href="/blog/assets/你不知道的JavaScript.html.4fc1a8ec.js"><link rel="prefetch" href="/blog/assets/大话数据结构.html.278176f4.js"><link rel="prefetch" href="/blog/assets/index.html.b71a20f2.js"><link rel="prefetch" href="/blog/assets/index.html.de7ce4eb.js"><link rel="prefetch" href="/blog/assets/0.html.1a15f30d.js"><link rel="prefetch" href="/blog/assets/1.html.f8dc9d29.js"><link rel="prefetch" href="/blog/assets/2.html.cfffe158.js"><link rel="prefetch" href="/blog/assets/3.html.4b006938.js"><link rel="prefetch" href="/blog/assets/4.html.fc4c2ca2.js"><link rel="prefetch" href="/blog/assets/5.html.c6138068.js"><link rel="prefetch" href="/blog/assets/6.html.0ce19a0c.js"><link rel="prefetch" href="/blog/assets/7.html.741f5d4f.js"><link rel="prefetch" href="/blog/assets/diff.html.14a287a4.js"><link rel="prefetch" href="/blog/assets/curry.html.5bea554e.js"><link rel="prefetch" href="/blog/assets/cdn.html.aa1e2834.js"><link rel="prefetch" href="/blog/assets/dns.html.599f4020.js"><link rel="prefetch" href="/blog/assets/http.html.25f97e8c.js"><link rel="prefetch" href="/blog/assets/http2.0.html.8ed6bee2.js"><link rel="prefetch" href="/blog/assets/https.html.26d3236a.js"><link rel="prefetch" href="/blog/assets/tcp.html.410d1e8b.js"><link rel="prefetch" href="/blog/assets/csrf.html.efbbc9f2.js"><link rel="prefetch" href="/blog/assets/xss.html.21751fbd.js"><link rel="prefetch" href="/blog/assets/index.html.703f1a04.js"><link rel="prefetch" href="/blog/assets/冒泡.html.75fc451a.js"><link rel="prefetch" href="/blog/assets/堆.html.a5d286d8.js"><link rel="prefetch" href="/blog/assets/希尔.html.dab0d9e5.js"><link rel="prefetch" href="/blog/assets/归并.html.e48cd390.js"><link rel="prefetch" href="/blog/assets/快排.html.6b6b65f7.js"><link rel="prefetch" href="/blog/assets/桶.html.de161b1b.js"><link rel="prefetch" href="/blog/assets/直接插入.html.4ce29728.js"><link rel="prefetch" href="/blog/assets/简单选择.html.262f660f.js"><link rel="prefetch" href="/blog/assets/鸡尾酒.html.776d86a4.js"><link rel="prefetch" href="/blog/assets/index.html.8655a137.js"><link rel="prefetch" href="/blog/assets/index.html.c7450340.js"><link rel="prefetch" href="/blog/assets/你不知道的JavaScript.html.1de99148.js"><link rel="prefetch" href="/blog/assets/大话数据结构.html.0551fd41.js"><link rel="prefetch" href="/blog/assets/index.html.a2d47f4e.js"><link rel="prefetch" href="/blog/assets/index.html.c6a6c9a7.js"><link rel="prefetch" href="/blog/assets/0.html.0a3c0b2d.js"><link rel="prefetch" href="/blog/assets/1.html.d2f614bf.js"><link rel="prefetch" href="/blog/assets/2.html.5636d2db.js"><link rel="prefetch" href="/blog/assets/3.html.a99c5d23.js"><link rel="prefetch" href="/blog/assets/4.html.f1191c4f.js"><link rel="prefetch" href="/blog/assets/5.html.497d3423.js"><link rel="prefetch" href="/blog/assets/6.html.57c5c24b.js"><link rel="prefetch" href="/blog/assets/7.html.86c03f57.js"><link rel="prefetch" href="/blog/assets/diff.html.3da408eb.js"><link rel="prefetch" href="/blog/assets/curry.html.6b3a22d0.js"><link rel="prefetch" href="/blog/assets/cdn.html.b78a6728.js"><link rel="prefetch" href="/blog/assets/dns.html.d7512016.js"><link rel="prefetch" href="/blog/assets/http.html.89dfba22.js"><link rel="prefetch" href="/blog/assets/http2.0.html.ca661002.js"><link rel="prefetch" href="/blog/assets/https.html.e9d57413.js"><link rel="prefetch" href="/blog/assets/tcp.html.2a73f91c.js"><link rel="prefetch" href="/blog/assets/csrf.html.fae3957f.js"><link rel="prefetch" href="/blog/assets/xss.html.4e45c59f.js"><link rel="prefetch" href="/blog/assets/index.html.a3d2486f.js"><link rel="prefetch" href="/blog/assets/冒泡.html.55552197.js"><link rel="prefetch" href="/blog/assets/堆.html.df46788d.js"><link rel="prefetch" href="/blog/assets/希尔.html.28408d8c.js"><link rel="prefetch" href="/blog/assets/归并.html.4635d056.js"><link rel="prefetch" href="/blog/assets/快排.html.b81a7a57.js"><link rel="prefetch" href="/blog/assets/桶.html.5aafae46.js"><link rel="prefetch" href="/blog/assets/直接插入.html.161077bf.js"><link rel="prefetch" href="/blog/assets/简单选择.html.bb37b711.js"><link rel="prefetch" href="/blog/assets/鸡尾酒.html.57a8e922.js"><link rel="prefetch" href="/blog/assets/404.91ae92b2.js"><link rel="prefetch" href="/blog/assets/Layout.5f941c00.js"><link rel="prefetch" href="/blog/assets/giscus.es.4b119d67.js"><link rel="prefetch" href="/blog/assets/lg-fullscreen.es5.0d2ccb81.js"><link rel="prefetch" href="/blog/assets/lg-fullscreen.05aaf9c4.js"><link rel="prefetch" href="/blog/assets/lg-pager.es5.6de7a94f.js"><link rel="prefetch" href="/blog/assets/lg-pager.f31088f4.js"><link rel="prefetch" href="/blog/assets/lg-rotate.es5.86d68b76.js"><link rel="prefetch" href="/blog/assets/lg-rotate.43e944d6.js"><link rel="prefetch" href="/blog/assets/lg-thumbnail.es5.84e63e06.js"><link rel="prefetch" href="/blog/assets/lg-thumbnail.75802ee6.js"><link rel="prefetch" href="/blog/assets/lg-zoom.es5.024db825.js"><link rel="prefetch" href="/blog/assets/lg-zoom.ffc0d8bb.js">
+    <link rel="stylesheet" href="/blog/assets/style.cb75b46e.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><div class="theme-default-content"><h1>404</h1><blockquote>当前路径不存在~</blockquote><a href="/blog/" class="">返回首页</a></div></div><!----><div class="lightgallery-vuepress"></div><!--]--></div>
+    <script type="module" src="/blog/assets/app.641cc5f6.js" defer></script>
+  </body>
+</html>
