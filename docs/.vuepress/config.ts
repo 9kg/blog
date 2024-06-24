@@ -10,9 +10,9 @@ import sidebar from "./sidebar";
 
 export default defineUserConfig({
   lang: "zh-CN",
-  title: "你好， 大兄弟 ！",
-  description: "这是我的前端学习记录!",
-  base: "/blog/",
+  title: "9kg小馆",
+  description: "这是我的学习分享记录!",
+  base: "/",
   open: true,
   head: [
     [

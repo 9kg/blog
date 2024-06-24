@@ -23,6 +23,7 @@ features:
   details: 缓存机制, 请求流程, 渲染流程
 - title: VUE
   details: 生命周期, diff算法, 实现原理
-footer:  9kg | Copyright © 2022-present(版权所有，转载请注来源)
+footer:  <div>9kg | Copyright © 2022-present(版权所有，转载请注来源)<a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2024077205号</a></div>
+footerHtml: true
 editLink: true
 ---
