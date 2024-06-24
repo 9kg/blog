@@ -12,7 +12,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "9kg小馆",
   description: "这是我的学习分享记录!",
-  base: "/",
+  base: "/blog/",
   open: true,
   head: [
     [
