@@ -1,0 +1,1 @@
+import{_ as r,o as c,c as a,a as e,d as t}from"./app.91a036f7.js";const o={},s=e("h1",{id:"curry",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#curry","aria-hidden":"true"},"#"),t(" curry")],-1),_=e("p",null,"hah",-1),n=[s,_];function d(h,i){return c(),a("div",null,n)}var u=r(o,[["render",d],["__file","curry.html.vue"]]);export{u as default};
